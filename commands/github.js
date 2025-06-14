@@ -1,11 +1,11 @@
 async function githubCommand(sock, chatId) {
-    const repoInfo = `*james md*
+    const repoInfo = `*andy xmd*
 
 
 
 *📢 Official Channel:*
 
-https://whatsapp.com/channel/0029VaogSY74IBhJWe8b472H
+https://whatsapp.com/channel/0029Vb5QadiKLaHkk0yUWT1b
 _thank you_`;
 
     try {
@@ -16,7 +16,7 @@ _thank you_`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363351424590490@newsletter',
-                    newsletterName: 'james md',
+                    newsletterName: 'andy xmd',
                     serverMessageId: -1
                 }
             }
