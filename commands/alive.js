@@ -1,7 +1,7 @@
 const settings = require("../settings");
 async function aliveCommand(sock, chatId) {
     try {
-        const message = `*🤖 𝙵𝙰𝙻𝙰 𝙸 𝙲𝙰𝙽𝚃 𝚂𝙻𝙴𝙴𝙿 𝙾𝙺𝙴𝚈 𝙸 𝙰𝙼 𝚃𝙷𝙴 𝙹𝙰𝙼𝙴𝚂 𝙼𝙳 𝙱𝙾𝚃 *\n\n` +
+        const message = `*🤖 𝙵𝙰𝙻𝙰 𝙸 𝙲𝙰𝙽𝚃 𝚂𝙻𝙴𝙴𝙿 𝙾𝙺𝙴𝚈 𝙸 𝙰𝙼 𝚃𝙷𝙴 ANDY X𝙼𝙳 𝙱𝙾𝚃 *\n\n` +
                        `*Version:*𝚃𝚆𝙾\n` +
                        `*𝚂𝚃𝙰𝚃𝚄𝚂:* 𝙾𝙽𝙻𝙸𝙽𝙴\n` +
                        `Type *.menu* for full command list`;
@@ -13,7 +13,7 @@ async function aliveCommand(sock, chatId) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363351424590490@newsletter',
-                    newsletterName: 'JAMES MD',
+                    newsletterName: 'ANDY XMD',
                     serverMessageId: -1
                 }
             }
