@@ -70,7 +70,7 @@ async function tiktokCommand(sock, chatId, message) {
                         await sock.sendMessage(chatId, {
                             video: { url: videoUrl },
                             mimetype: "video/mp4",
-                            caption: "powered by james md"
+                            caption: "powered by andy xmd"
                         }, { quoted: message });
                         return;
                     }
@@ -96,12 +96,12 @@ async function tiktokCommand(sock, chatId, message) {
                     await sock.sendMessage(chatId, {
                         video: { url: mediaUrl },
                         mimetype: "video/mp4",
-                        caption: "powered by james md"
+                        caption: "powered by andy xmd"
                     }, { quoted: message });
                 } else {
                     await sock.sendMessage(chatId, {
                         image: { url: mediaUrl },
-                        caption: "powered by james ms"
+                        caption: "powered by andy xmd"
                     }, { quoted: message });
                 }
             }
