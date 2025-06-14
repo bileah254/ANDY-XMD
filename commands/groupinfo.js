@@ -8,7 +8,7 @@ async function groupInfoCommand(sock, chatId, msg) {
         try {
             pp = await sock.profilePictureUrl(chatId, 'image');
         } catch {
-            pp = 'https://files.catbox.moe/slj4qy.jpg'; // Default image
+            pp = 'https://url.bwmxmd.online/Adams.8sj7jiof.jpg; // Default image
         }
 
         // Get admins from participants
