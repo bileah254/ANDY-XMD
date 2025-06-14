@@ -5,9 +5,9 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
   ╔══════════════╗
-    *JAMES-MD BOT*  
+    *ANDY-XMD BOT*  
    Version: *1*
-   by ©james
+   by ©andy
 ╔══════════════════╗
  *General Commands*:
 ║  help or .menu
@@ -157,7 +157,7 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363351424590490@newsletter',
-                        newsletterName: 'james md updates',
+                        newsletterName: 'andy xmd updates',
                         serverMessageId: -1
                     }
                 }
@@ -171,7 +171,7 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363351424590490@newsletter',
-                        newsletterName: 'james md updates',
+                        newsletterName: 'andy xmd updates',
                         serverMessageId: -1
                     } 
                 }
